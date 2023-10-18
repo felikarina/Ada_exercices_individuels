@@ -1,6 +1,6 @@
 let givenNumber = parseInt(prompt("Donnez un numéro"))
 
-function didIwin () {
+function gamePlay () {
     while(givenNumber !== 22) {
         if(givenNumber < 22) {
             alert("plus grand !")
@@ -12,6 +12,6 @@ function didIwin () {
     }
 alert("bravooo")
 }
-didIwin()
+gamePlay()
 
 
