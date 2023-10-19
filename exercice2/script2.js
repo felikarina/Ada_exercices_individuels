@@ -8,7 +8,7 @@ function didIWin (givenNumber) {
         return false
     }
 }
-let nombreAdeviner = ("Donnez un numéro entre 0 et 50 que l'adversaire devra deviner"))
+let nombreAdeviner = parseInt(prompt("Donnez un numéro entre 0 et 50 que l'adversaire devra deviner"))
 function gamePlay () {
     
     let givenNumber = parseInt(prompt("Donnez un numéro"))

@@ -15,4 +15,8 @@
 }
 .aligne {
     display: flex;
+    justify-content: space-evenly;
+}
+.centre {
+    text-align: center;
 }
