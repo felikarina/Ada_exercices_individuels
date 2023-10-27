@@ -1,22 +1,26 @@
-.bouton{
+.bouton {
     color: white;
     text-decoration: none;
     background-color: #aa33b7;
-    padding : 6px 15px;
+    padding: 6px 15px;
     border-radius: 10px;
-    }
+}
+
 .bouton:hover {
     background-color: rgb(52, 43, 226);
     border: solid;
     border-color: aqua;
-    }
+}
+
 .champ {
     width: 30px;
 }
+
 .aligne {
     display: flex;
     justify-content: space-evenly;
 }
+
 .centre {
     text-align: center;
 }
