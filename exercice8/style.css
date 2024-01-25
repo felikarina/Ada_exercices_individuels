@@ -1,0 +1,72 @@
+th {
+    border: 1px solid;
+    color: black;
+}
+#essai {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 20%;
+}
+#inputs {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+#validate {
+    display: grid;
+    justify-content: center;
+}
+html {
+    background-color: rgba(98, 50, 50, 0.55);
+}
+button {
+    border-radius: 10px;
+    border-color: rgb(255, 252, 252);
+    height: 40px;
+    width: 90px;
+    color: white;
+}
+#rouge {
+    background-color: red;
+}
+#bleu {
+    background-color: blue;
+}
+#orange {
+    background-color: orange;
+}
+#jaune {
+    background-color: yellow;
+    color: black;
+}
+#blanc {
+    background-color: white;
+    color: black;
+}
+#vert {
+    background-color: green;
+}
+#violet {
+    background-color: blueviolet;
+}
+#noir {
+    background-color: black;
+}
+#reset {
+    background-color: rgb(113, 6, 6);
+    border-color: black;
+    color: black;
+}
+#validercombi {
+    background-color: greenyellow;
+    border-color: black;
+    color: black;
+}
+#validercombi:hover {
+    background-color: rgb(255, 206, 47);
+}
+#reset:hover {
+    background-color: rgb(215, 1, 1);
+}

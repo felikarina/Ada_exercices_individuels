@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mastermind</title>
+</head>
+
+<body>
+  <h1 style="text-align: center;">Mastermind</h1>
+  <div id="essai">
+    <div id="case"></div>
+  </div>
+  <br>
+  <div id="inputs">
+    <button id="rouge" onclick="reply_click(), boutoncouleur('rouge')">rouge</button>
+    <button id="bleu" onclick="reply_click(), boutoncouleur('bleu')">bleu</button>
+    <button id="jaune" onclick="reply_click(), boutoncouleur('jaune')">jaune</button>
+    <button id="vert" onclick="reply_click(), boutoncouleur('vert')">vert</button>
+    <button id="violet" onclick="reply_click(), boutoncouleur('violet')">violet</button>
+    <button id="orange" onclick="reply_click(), boutoncouleur('orange')">orange</button>
+    <button id="blanc" onclick="reply_click(), boutoncouleur('blanc')">blanc</button>
+    <button id="noir" onclick="reply_click(), boutoncouleur('noir')">noir</button>
+  </div>
+  <br>
+  <div id="validate">
+    <button id="validercombi" onclick="validercombi()">Valider la combinaison</button><br><br><br>
+    <button id="reset" onclick="reset()">Reset le jeu</button>
+  </div>
+  <div id="message">
+    <h2 id="mess2"></h2>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
