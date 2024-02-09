@@ -1,3 +1,5 @@
+//BUBBLE SORT
+
 import java.util.Arrays;
 public class Main{
     public static void main(String args[]) {
@@ -7,13 +9,10 @@ public class Main{
         System.out.println(rendu);
     }
     public static boolean goodOrNo(int[] tab) {
-        boolean boo = false;
+        boolean boo = true;
         for (int i = 0; i < tab.length-1; i++) {
             if(tab[i] > tab[i+1]){
                 boo = false;
-            }
-            else{
-                boo = true;
             }
         }
         return boo;
