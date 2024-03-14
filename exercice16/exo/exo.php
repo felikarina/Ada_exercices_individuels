@@ -9,6 +9,9 @@
 <body>
     <?php
     session_start();
+
+    var_dump($_POST);
+
     if(isset($_POST['reset'])) {
         session_destroy();
     }
