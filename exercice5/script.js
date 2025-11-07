@@ -63,4 +63,4 @@ function fib(n){
     else return fib(n-1) + fib(n-2)
 }
 
-console.log(sum3([1,2,3]));
+console.log(fib(13));

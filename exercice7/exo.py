@@ -17,7 +17,7 @@ def demandernombredecaillou():
             else:
                 demandernombredecaillou()
     else:
-       return "null"
+        return "null"
 
 def retirercaillou(nombredecaillou):
     global cailloutotal
