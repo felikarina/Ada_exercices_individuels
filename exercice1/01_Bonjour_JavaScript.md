@@ -1,6 +1,6 @@
 # Bonjour, JavaScript! 👋
 
-Pensez à commiter votre solution aux problèmes posés dans cet exercice.
+Pensez à commiter votre solution aux problèmes posés dans cet exercice.  
 
 Si c’est votre premier exercice individuel, sur votre compte Github, créez un nouveau repository, appelez-le “ada-exercices-individuels”, dans lequel vous ajouterez un répertoire par exercice. Dans ce répertoire, vous pourrez déposer le fichier de l’énoncé ainsi que les sources de la solution que vous proposez.
 
